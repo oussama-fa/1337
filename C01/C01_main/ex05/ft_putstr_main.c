@@ -14,7 +14,5 @@ void ft_putstr(char *str)
 
 int main()
 {
-    ft_putstr("Oussama");
-    ft_putstr("\n");
-    ft_putstr("Farah");
+    ft_putstr("Hello World!");
 }
