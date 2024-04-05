@@ -19,8 +19,12 @@ unsigned int ft_strlcpy(char *dest, char *src, unsigned int size)
 
 int main()
 {
-    char src[] = "This is src";
-    char d[20];
+    char src[] = "Hello, world!";
+    char dest[20];
+    unsigned int length = ft_strlcpy(dest, src, sizeof(dest));
 
-    printf("%d", ft_strlcpy(d, src, 2));
+    printf("Copied string: %s\n", dest);
+    printf("Length of copied string: %u\n", length);
+
+    return 0;
 }
