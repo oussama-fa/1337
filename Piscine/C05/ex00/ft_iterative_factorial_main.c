@@ -11,11 +11,8 @@ int ft_iterative_factorial(int nb)
         return (0);
     else if (nb == 0)
         return (1);
-    else
-    {
-        while (nb > i && i++)
-            res *= i;
-    }
+    while (nb > i && i++)
+        res *= i;
     return (res);
 }
 

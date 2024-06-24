@@ -27,5 +27,4 @@ void ft_print_comb2(void)
         }
         a++;
     }
-    write(1, "\n", 1);
 }
