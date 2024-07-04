@@ -16,5 +16,5 @@ int main()
     printf("{%d}\n", ft_recursive_power(2, 0));
     printf("{%d}\n", ft_recursive_power(2, 1));
     printf("{%d}\n", ft_recursive_power(2, -2));
-    printf("{%d}\n", ft_recursive_power(2, 2));
+    printf("{%d}\n", ft_recursive_power(2, 3));
 }
