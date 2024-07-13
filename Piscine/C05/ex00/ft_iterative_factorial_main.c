@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//factorial : n! = n * (n - 1)!
+
 int	ft_iterative_factorial(int nb)
 {
 	int	i;
