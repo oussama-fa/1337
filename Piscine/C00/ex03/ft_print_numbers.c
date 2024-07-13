@@ -1,13 +1,13 @@
 #include <unistd.h>
 
-void ft_print_numbers(void)
+void	ft_print_numbers(void)
 {
-    char nb;
+	char	nb;
 
-    nb = '0';
-    while (nb <= '9')
-    {
-        write(1, &nb, 1);
-        nb++;
-    }
+	nb = '0';
+	while (nb <= '9')
+	{
+		write(1, &nb, 1);
+		nb++;
+	}
 }
